@@ -1,4 +1,5 @@
-const API_KEY = "<API_KEY>";
+// you will get from here http://themoviedb.org/
+const API_KEY = "<TMDB_API_KEY>";
 export default {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
